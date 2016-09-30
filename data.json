@@ -20,9 +20,19 @@
             "type": "list",
             "title": "JavaScript (1)",
             "elements": [
-                "Почему JavaScript в 2016?",
+                {
+                    "text": "Почему JavaScript в 2016?",
+                    "insiders": [
+                        "Читабельный код",
+                        "Интерпретируемый",
+                        "Популярность"
+                    ]
+                },
                 "Что такое node.js",
-                "Event loop: как он устроен. setTimeout и sleep",
+                {
+                    "text": "Event loop: как он устроен. setTimeout и sleep",
+                    "code": "while (queue.waitForMessage()) {\n  queue.processNextMessage()\n}"
+                },
                 "ES5 -> ES2015. Зачем и где нужен babel",
                 "Наследование в JavaScript. ES2015, ES5, inherits в node.js"
             ]
