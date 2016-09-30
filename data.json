@@ -33,7 +33,7 @@
                     "text": "Event loop: как он устроен. setTimeout и sleep",
                     "code": "while (queue.waitForMessage()) {\n  queue.processNextMessage()\n}"
                 },
-                "ES5 -> ES2015. Зачем и где нужен babel",
+                "ES5 -> ES2015. Зачем и где нужен Babel",
                 "Наследование в JavaScript. ES2015, ES5, inherits в node.js"
             ]
         },
@@ -41,7 +41,7 @@
             "type": "list",
             "title": "JavaScript (2)",
             "elements": [
-                "Асинхронные операции в js: promises (async/await), callbacks, EventEmitter",
+                "Асинхронные операции в JavaScript: Promises (async/await), callbacks, PubSub (EventEmitter)",
                 "Зачем нужны приватные функции, как сделать их полностью приватными. Общий код для публичных методов",
                 "Статические методы конструкторов и ключевое слово static",
                 "Итерирование по объектам/массивам в JavaScript. Почему for..of прекрасен. Генераторы. Как сделать свой for..of"
@@ -51,7 +51,7 @@
             "type": "list",
             "title": "Браузеры",
             "elements": [
-                "JavaScript в браузере (интерпретаторы, версии интерпретаторов, webdriverio.execute",
+                "JavaScript в браузере (интерпретаторы, версии интерпретаторов, webdriverio.execute)",
                 "CSS-селекторы: основные селекторы, как проверить"
             ]
         },
@@ -60,11 +60,11 @@
             "title": "Другое",
             "elements": [
                 "editorconfig: форматирование кода. Зачем оно нужно",
-			    "AST: как внутри работают линтеры и babel",
+			    "AST: как внутри работают линтеры и Babel",
 			    "Компилируемые и интерпретируемые языки, JIT",
 			    "Переменные окружения, как использовать в npm scripts",
 			    "Процессы и треды, exit codes",
-			    "gulpfile, gruntfile",
+			    "Gulpfile, Gruntfile",
 			    "Что такое бандлеры (webpack, rollup, browserify)"
             ]
         },
