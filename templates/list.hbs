@@ -1,0 +1,12 @@
+<section class="slide">
+    <h2>{{title}}</h2>
+    <ol>
+        {{#each slides}}
+            <li>
+                {{#if active}}<b>{{/if}}
+                {{text}}
+                {{#if active}}</b>{{/if}}
+            </li>
+        {{/each}}
+    </ol>
+</section>

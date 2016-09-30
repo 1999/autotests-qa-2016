@@ -1,0 +1,16 @@
+{
+  "name": "autotests-qa-2016",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node tools/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmitry Sorin <dsorin@yandex-team.ru>",
+  "dependencies": {
+    "handlebars": "^4.0.5",
+    "shower": "^2.1.4",
+    "shower-material": "^1.0.7"
+  }
+}
