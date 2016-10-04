@@ -18,6 +18,24 @@
         },
         {
             "type": "list",
+            "title": "Как выглядят автотесты?",
+            "elements": [
+                {
+                    "text": "Пример",
+                    "code": "suite <mark class='important'>Проверка авторизации</mark>\n  testcase <mark class'important'>Форма видна</mark>\n    doSmth();\n    assert(...);\n    assert(...);\n\n  testcase <mark class'important'>Поля ввода активны</mark>\n    doSmth();\n    assert(...);"
+                }
+            ]
+        },
+        {
+            "type": "cover",
+            "image": "assets/sync-test.png"
+        },
+        {
+            "type": "cover",
+            "image": "assets/async-test.png"
+        },
+        {
+            "type": "list",
             "title": "JavaScript (1)",
             "elements": [
                 {
@@ -86,7 +104,7 @@
                 "npm scripts: зачем они нужны, Makefile, Rakefile и прочие",
 			    "Серверная часть NPM: реестры",
 			    "Тесты в npm-пакетах. Чем они запускаются (mocha, jasmine, cucumber, ava)",
-			    "Полезные npm библиотеки: debug, eslint, pre-commit (?), request, lodash TODO"
+			    "Полезные npm библиотеки: debug, eslint, pre-commit, request, lodash"
             ]
         },
         {
@@ -127,19 +145,34 @@
                 "CI: teamcity и jenkins. Что в них можно делать",
 			    "Selenium: что это и как с ним работать из JavaScript",
 			    "TravisCI: публичный CI для OSS-проектов. Как использовать в npm-пакетах",
-			    "SauceLabs TODO"
+			    "SauceLabs"
             ]
         },
         {
             "type": "list",
             "title": "Как писать тесты",
             "elements": [
-                "assertion libs: assert, chai, power-assert",
-                "mocha: особенности, пример TODO",
-                "jasmine: особенности, пример TODO",
-                "cucumber: особенности, пример TODO",
-                "ava: особенности, пример TODO",
-			    "Особенности написания тестов для Selenium TODO"
+                {
+                    "text": "assertion libs: assert, chai, power-assert",
+                    "cover": "assets/assert.png"
+                },
+                {
+                    "text": "mocha.js / mocha-parallel-tests",
+                    "cover": "assets/sync-test.png"
+                },
+                {
+                    "text": "jasmine (+ karma)",
+                    "cover": "assets/jasmine.png"
+                },
+                {
+                    "text": "cucumber",
+                    "cover": "assets/cucumber.png"
+                },
+                {
+                    "text": "ava",
+                    "cover": "assets/ava.png"
+                },
+                "Особенности написания тестов для Selenium"
             ]
         }
     ]
