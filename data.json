@@ -22,7 +22,7 @@
             "elements": [
                 {
                     "text": "Пример",
-                    "code": "suite <mark class='important'>Проверка авторизации</mark>\n  testcase <mark class'important'>Форма видна</mark>\n    doSmth();\n    assert(...);\n    assert(...);\n\n  testcase <mark class'important'>Поля ввода активны</mark>\n    doSmth();\n    assert(...);"
+                    "code": "suite <mark class='important'>Проверка авторизации</mark>\n  testcase <mark class'important'>Форма должна быть видна</mark>\n    doSmth();\n    assert(...);\n    assert(...);\n\n  testcase <mark class'important'>Поля ввода должны быть активны</mark>\n    doSmth();\n    assert(...);"
                 }
             ]
         },
