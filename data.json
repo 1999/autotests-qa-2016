@@ -82,8 +82,8 @@
 			    "Компилируемые и интерпретируемые языки, JIT",
 			    "Переменные окружения, как использовать в npm scripts",
 			    "Процессы и треды, exit codes",
-			    "Gulpfile, Gruntfile",
-			    "Что такое бандлеры (webpack, rollup, browserify)"
+			    "Gulpfile, Gruntfile (фронтенд)",
+			    "Что такое бандлеры (webpack, rollup, browserify) (фронтенд)"
             ]
         },
         {
@@ -115,7 +115,8 @@
 			    "Что такое git flow и с чем его едят. Какие они бывают. Что такое ветки в git, что такое rebase и cherry-pick",
 			    "Полезности git: gitignore, git-хуки",
 			    "Коммиты в git: почему важна атомарность (git blame)",
-			    "Github: зачем он нужен, что такое пулреквесты. Интеграция с внешними сервисами (e-mail, slack, вебхуки)"
+			    "Github: зачем он нужен, что такое пулреквесты. Интеграция с внешними сервисами (e-mail, slack, вебхуки)",
+                "Интеграция с внешними сервисами (e-mail, slack, вебхуки, testpalm)"
             ]
         },
         {
@@ -172,7 +173,11 @@
                     "text": "ava",
                     "cover": "assets/ava.png"
                 },
-                "Особенности написания тестов для Selenium"
+                {
+                    "text": "hermione",
+                    "cover": "assets/hermione.png"
+                },
+                "Особенности написания тестов для Selenium. Webdriver"
             ]
         }
     ]
