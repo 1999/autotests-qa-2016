@@ -36,7 +36,7 @@
         },
         {
             "type": "list",
-            "title": "JavaScript (1)",
+            "title": "JavaScript (simple)",
             "elements": [
                 {
                     "text": "Почему JavaScript в 2016?",
@@ -58,7 +58,7 @@
         },
         {
             "type": "list",
-            "title": "JavaScript (2)",
+            "title": "JavaScript (advanced)",
             "elements": [
                 "Асинхронные операции в JavaScript: Promises (async/await), callbacks, PubSub (EventEmitter)",
                 "Зачем нужны приватные функции, как сделать их полностью приватными. Общий код для публичных методов",

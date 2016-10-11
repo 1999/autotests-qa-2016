@@ -27,7 +27,7 @@ for (let slide of presentation.slides) {
                     title: slide.title,
                     slides: slide.elements.map((element, j) => {
                         const text = (typeof element === 'object')
-                            ? element.text
+                            ? `${element.text} (&hellip;)`
                             : element;
 
                         return {
