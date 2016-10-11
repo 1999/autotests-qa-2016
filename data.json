@@ -142,16 +142,6 @@
         },
         {
             "type": "list",
-            "title": "Внешние полезные сервисы",
-            "elements": [
-                "CI: teamcity и jenkins. Что в них можно делать",
-			    "Selenium: что это и как с ним работать из JavaScript",
-			    "TravisCI: публичный CI для OSS-проектов. Как использовать в npm-пакетах",
-			    "SauceLabs"
-            ]
-        },
-        {
-            "type": "list",
             "title": "Как писать тесты",
             "elements": [
                 {
@@ -179,6 +169,16 @@
                     "cover": "assets/hermione.png"
                 },
                 "Особенности написания тестов для Selenium. Webdriver"
+            ]
+        },
+        {
+            "type": "list",
+            "title": "Внешние полезные сервисы",
+            "elements": [
+                "CI: teamcity и jenkins. Что в них можно делать",
+			    "Selenium: что это и как с ним работать из JavaScript",
+			    "TravisCI: публичный CI для OSS-проектов. Как использовать в npm-пакетах",
+			    "SauceLabs"
             ]
         }
     ]
