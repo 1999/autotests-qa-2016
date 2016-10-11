@@ -124,20 +124,20 @@
             "type": "list",
             "title": "Структуры данных",
             "elements": [
-                "LinkedList. Экспортируемый объект - конструктор Node с методом addNext(node) и геттером value",
-			    "Queue. Экспортируемый объект - конструктор Queue с методами enqueue(), dequeue(), peek() и isEmpty()",
-			    "Stack. Экспортируемый объект - конструктор Queue с методами pop(), push(value), peek() и isEmpty()",
+                "LinkedList",
+			    "Queue (FIFO)",
+			    "Stack (LIFO)",
 			    "Деревья: простые, бинарные и бинарные поисковые. Обход в глубину (DFS, рекурсия) и в ширину (BFS, через очередь)",
-			    "DOM-дерево, childNodes, HTMLElement и другие типы TODO"
+			    "DOM-дерево, childNodes, HTMLElement"
             ]
         },
         {
             "type": "list",
             "title": "Алгоритмы",
             "elements": [
-                "Реализовать в классе Node метод  Node.removeDuplicates = (head) => {...} , удаляющий дубликаты в связном списке за O(1) памяти (без использования дополнительных переменных, хранящих дубликаты)",
-			    "С использованием существующих структур данных (LinkedList, Queue, Stack) реализовать статический метод LinkedList.isPalindrome(head) , проверяющий, что в связном списке хранится палиндром (т -> о -> п -> о -> т)",
-			    "У конструктора Node должны быть статические методы getNextTotal(rootNode) и isCircular(rootNode), 2 статических метода для Node: hasIntersection(head1, head2) и getIntersectionNode(head1, head2)"
+                "LinkedList: Node.removeDuplicates = (head) => {...}",
+			    "LinkedList: Node.isCircular()",
+                "Tree: Node.traverse({depth: true})"
             ]
         },
         {
