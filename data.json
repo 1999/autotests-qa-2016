@@ -9,6 +9,15 @@
     "slides": [
         {
             "type": "splash-list",
+            "title": "Главное",
+            "elements": [
+                "Автотесты на JavaScript &mdash; это просто",
+                "Нужно просто писать код",
+                "Сделай. Исправь. Улучшай"
+            ]
+        },
+        {
+            "type": "splash-list",
             "title": "Что будет?",
             "elements": [
                 "12.10: Введение. Как выглядят автотесты. JavaScript (1)",
