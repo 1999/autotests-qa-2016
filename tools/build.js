@@ -60,6 +60,17 @@ for (let slide of presentation.slides) {
 
             break;
 
+        case 'splash-list':
+            const data = {
+                title: slide.title,
+                slides: slide.elements.map((element, j) => ({
+                    text: element
+                }))
+            };
+
+            slidesHTML += list(data);
+            break;
+
         case 'cover':
             slidesHTML += cover({
                 url: slide.image
