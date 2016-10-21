@@ -105,7 +105,6 @@
                 "editorconfig: форматирование кода. Зачем оно нужно",
 			    "AST: как внутри работают линтеры и Babel",
 			    "Компилируемые и интерпретируемые языки, JIT",
-			    "Переменные окружения, как использовать в npm scripts",
 			    "Процессы и треды, exit codes",
 			    "Gulpfile, Gruntfile (фронтенд)",
 			    "Что такое бандлеры (webpack, rollup, browserify) (фронтенд)"
@@ -127,6 +126,7 @@
             "title": "NPM (2)",
             "elements": [
                 "npm scripts: зачем они нужны, Makefile, Rakefile и прочие",
+                "Переменные окружения, как использовать в npm scripts",
 			    "Серверная часть NPM: реестры",
 			    "Тесты в npm-пакетах. Чем они запускаются (mocha, jasmine, cucumber, ava)",
 			    "Полезные npm библиотеки: debug, eslint, pre-commit, request, lodash"
