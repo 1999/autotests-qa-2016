@@ -146,8 +146,9 @@
             "title": "GIT",
             "elements": [
                 "Что такое VCS, какими они бывают (CVS, Subversion, Git, Mercurial)",
-			    "Что такое git flow и с чем его едят. Какие они бывают. Что такое ветки в git, что такое rebase и cherry-pick",
-			    "Полезности git: gitignore, git-хуки",
+			    "Что такое git flow и с чем его едят. Какие они бывают. Что такое ветки в git",
+			    "git: branch, checkout, remote, cherry-pick, log, merge, rebase, diff",
+                "Полезности git: gitignore, git-хуки",
 			    "Коммиты в git: почему важна атомарность (git blame)",
 			    "Github: зачем он нужен, что такое пулреквесты. Интеграция с внешними сервисами (e-mail, slack, вебхуки)"
             ]
